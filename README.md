@@ -24,9 +24,13 @@ In relational database using the Java Programming Language.
   - 2021: JDBC 4.? in Java SE ?
 
 JDBC in the Enterprise
-
 ![This is an image](assets/images/JDBC.png)
+
+JDBC is for Many Software Domains
+![This is an image](assets/images/Domains.png)
 - Usage
+  - Java 11: OpenJDK or Oracle
+  - JDBC 4.3: Many examples work with earlier versions as well
 ### Setting up your development environment
   - Oracle, SQL Server, MySQL server, and MySQL Workbench
   - Example DB
