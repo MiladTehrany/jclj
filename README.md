@@ -7,7 +7,7 @@ Java Core Library: JDBC
 - SQL
 ---
 
-###JDBC History and Context
+### JDBC History and Context
   - History
   
 The JDBC API is used to: **C**reate, **R**ead, **U**pdate, **D**elete data,
@@ -24,7 +24,7 @@ In relational database using the Java Programming Language.
   - 2021: JDBC 4.? in Java SE ?
 
 - Usage
-###Setting up your development environment
+### Setting up your development environment
   - Oracle, SQL Server, MySQL server, and MySQL Workbench
   - Example DB
   - Example code
@@ -32,13 +32,13 @@ In relational database using the Java Programming Language.
     - Intellij IDEA
     - Eclipse
     - Command-line
-###Configuring and connecting JDBC driver
+### Configuring and connecting JDBC driver
     
-###Query, update, and delete data
+### Query, update, and delete data
 
-###Advanced futures
+### Advanced futures
 
-###JDBC RowSets
+### JDBC RowSets
 
 
 ---
