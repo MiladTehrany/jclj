@@ -42,6 +42,7 @@ JDBC is for Many Software Domains
     - Please download [ojdbc7.jar](https://www.oracle.com/database/technologies/jdbc-drivers-12c-downloads.html) file 
     - Then run into **Command-line**, this command
       >mvn install:install-file -Dfile=./ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.2.0.1 -Dpackaging=jar
+    - [For more information about that](https://mkyong.com/maven/how-to-add-oracle-jdbc-driver-in-your-maven-local-repository/)
     
     - Development Platform
       - Intellij IDEA: [Install](https://www.jetbrains.com/idea/)
