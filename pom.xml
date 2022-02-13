@@ -7,6 +7,69 @@
     <groupId>ir.miladtehrany</groupId>
     <artifactId>jclj</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>jclj</name>
+    <description>Exercise files for the Java core libraries: JDBC by MiladTehrany</description>
+    <url>https://github.com/MiladTehrany/jclj.git</url>
 
-    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <slf-4j>1.7.25</slf-4j>
+        <ejb-api>3.2.5</ejb-api>
+        <ojdbc7>12.2.0.1</ojdbc7>
+        <dms>19.3.0.0</dms>
+        <ojdbc8dms>19.3.0.0</ojdbc8dms>
+        <geronimo-jcdi>1.0.1</geronimo-jcdi>
+        <geronimo-atinject>1.0</geronimo-atinject>
+        <geronimo-annotation>1.1</geronimo-annotation>
+    </properties>
+
+    <dependencies>
+        <!-- Logging Dependencies -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>${slf-4j}</version>
+        </dependency>
+        <!-- EJB Dependencies -->
+        <dependency>
+            <groupId>jakarta.ejb</groupId>
+            <artifactId>jakarta.ejb-api</artifactId>
+            <version>${ejb-api}</version>
+        </dependency>
+        <!-- JDBC Dependencies -->
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>${ojdbc7}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>dms</artifactId>
+            <version>${dms}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>ojdbc8dms</artifactId>
+            <version>${ojdbc8dms}</version>
+        </dependency>
+        <!-- CDI Dependencies -->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jcdi_2.0_spec</artifactId>
+            <version>${geronimo-jcdi}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-atinject_1.0_spec</artifactId>
+            <version>${geronimo-atinject}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-annotation_1.3_spec</artifactId>
+            <version>${geronimo-annotation}</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -38,10 +38,12 @@ JDBC is for Many Software Domains
     
       ![This is an image](assets/images/Database-Schema.png)
   - Example code
+    - Pom.xml
+      >mvn install:install-file -Dfile=./ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.2.0.1 -Dpackaging=jar
   - Development Platform
     - Intellij IDEA
     - Eclipse
-    - Command-line
+    - Command-line: Install Apache Maven
 ### Configuring and connecting JDBC driver
     
 ### Query, update, and delete data
