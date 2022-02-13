@@ -23,6 +23,9 @@ In relational database using the Java Programming Language.
   - 2017: JDBC 4.3 in Java SE 9
   - 2021: JDBC 4.? in Java SE ?
 
+JDBC in the Enterprise
+
+![This is an image](assets/images/JDBC%20in%20the%20Enterprise.png)
 - Usage
 ### Setting up your development environment
   - Oracle, SQL Server, MySQL server, and MySQL Workbench
