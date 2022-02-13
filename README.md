@@ -25,7 +25,7 @@ In relational database using the Java Programming Language.
 
 JDBC in the Enterprise
 
-![This is an image](assets/images/JDBC%20in%20the%20Enterprise.png)
+![This is an image](assets/images/JDBC.png)
 - Usage
 ### Setting up your development environment
   - Oracle, SQL Server, MySQL server, and MySQL Workbench
