@@ -39,13 +39,24 @@ JDBC is for Many Software Domains
       ![This is an image](assets/images/Database-Schema.png)
   - Example code
     - Pom.xml
+    - Please download [ojdbc7.jar](https://www.oracle.com/database/technologies/jdbc-drivers-12c-downloads.html) file 
+    - Then run into **Command-line**, this command
       >mvn install:install-file -Dfile=./ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.2.0.1 -Dpackaging=jar
-  - Development Platform
-    - Intellij IDEA
-    - Eclipse
-    - Command-line: Install Apache Maven
-### Configuring and connecting JDBC driver
     
+    - Development Platform
+      - Intellij IDEA: [Install](https://www.jetbrains.com/idea/)
+      - Eclipse: [Install](https://www.eclipse.org/)
+      - Command-line: [Install Apache Maven](https://maven.apache.org/install.html)
+### Configuring and connecting JDBC driver
+      
+- Connection Method
+  - DriverManager with Services
+  - Class.forName with DriverManager
+  - DataSource
+    - JNDI
+    - Java / Jakarta EE
+    - CDI
+
 ### Query, update, and delete data
 
 ### Advanced futures
