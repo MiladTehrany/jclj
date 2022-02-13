@@ -34,6 +34,8 @@ JDBC is for Many Software Domains
 ### Setting up your development environment
   - Oracle, SQL Server, MySQL server, and MySQL Workbench
   - Example DB
+    - Schema
+      ![This is an image](assets/images/Database-Schema.png)
   - Example code
   - Development Platform
     - Intellij IDEA
