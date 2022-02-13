@@ -35,6 +35,7 @@ JDBC is for Many Software Domains
   - Oracle, SQL Server, MySQL server, and MySQL Workbench
   - Example DB
     - Schema
+    
       ![This is an image](assets/images/Database-Schema.png)
   - Example code
   - Development Platform
