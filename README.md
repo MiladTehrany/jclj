@@ -6,6 +6,7 @@ Java Core Library: JDBC
 - Java Programming Language
 - SQL
 ---
+
 ###JDBC History and Context
   - History
   
@@ -32,9 +33,13 @@ In relational database using the Java Programming Language.
     - Eclipse
     - Command-line
 ###Configuring and connecting JDBC driver
+    
 ###Query, update, and delete data
+
 ###Advanced futures
+
 ###JDBC RowSets
+
 
 ---
 
