@@ -36,7 +36,7 @@ JDBC is for Many Software Domains
   - Example DB
     - Schema
     
-      ![This is an image](assets/images/Database-Schema.png)
+      ![This is an image](assets/images/ERD.png)
   - Example code
     - Pom.xml
     - Please download [ojdbc7.jar](https://www.oracle.com/database/technologies/jdbc-drivers-12c-downloads.html) file 
