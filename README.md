@@ -62,6 +62,9 @@ JDBC is for Many Software Domains
   - JDBC Follows the Facade Pattern
   ![This is an image](assets/images/JDBC%20Pattern.png)
 
+  - JDBC Interfaces
+    ![This is an image](assets/images/JDBC%20Interfaces.png)
+
 
 ### Query, update, and delete data
 
