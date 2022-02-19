@@ -25,11 +25,11 @@ In relational database using the Java Programming Language.
 
 JDBC in the Enterprise
 
-![This is an image](assets/images/JDBC.png)
+![JDBC](https://user-images.githubusercontent.com/21332301/154792932-64cccc49-ee3b-4ea3-be8a-388184c0d89b.png)
 
 JDBC is for Many Software Domains
 
-![This is an image](assets/images/Domains.png)
+![Domains](https://user-images.githubusercontent.com/21332301/154792954-248e852b-5036-451a-8462-45d983191023.png)
 - Usage
   - Java 11: OpenJDK or Oracle
   - JDBC 4.3: Many examples work with earlier versions as well
@@ -38,7 +38,8 @@ JDBC is for Many Software Domains
   - Example DB
     - Schema
     
-      ![This is an image](assets/images/ERD.png)
+      ![ERD](https://user-images.githubusercontent.com/21332301/154792962-cb1843a8-c8b3-4339-9e19-c17b704f20c4.png)
+
   - Example code
     - Pom.xml
     - Please download [ojdbc7.jar](https://www.oracle.com/database/technologies/jdbc-drivers-12c-downloads.html) file 
@@ -60,10 +61,14 @@ JDBC is for Many Software Domains
     - Java / Jakarta EE
     - CDI
   - JDBC Follows the Facade Pattern
-  ![This is an image](assets/images/JDBC%20Pattern.png)
+  
+    ![JDBC Pattern](https://user-images.githubusercontent.com/21332301/154792975-5aecbdb6-1f87-481b-b40f-a4ec461b6f86.png)
+
 
   - JDBC Interfaces
-    ![This is an image](assets/images/JDBC%20Interfaces.png)
+    
+    ![JDBC Interfaces](https://user-images.githubusercontent.com/21332301/154792979-c8e01dfc-b414-4e0a-84dc-6ef6cc2dac6b.png)
+
 
 
 ### Query, update, and delete data
