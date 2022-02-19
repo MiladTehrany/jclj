@@ -59,6 +59,9 @@ JDBC is for Many Software Domains
     - JNDI
     - Java / Jakarta EE
     - CDI
+  - JDBC Follows the Facade Pattern
+  ![This is an image](assets/images/JDBC%20Pattern.png)
+
 
 ### Query, update, and delete data
 
