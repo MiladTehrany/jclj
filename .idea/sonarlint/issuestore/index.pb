@@ -1,12 +1,6 @@
 
-e
-5.idea/libraries/Maven__com_oracle_ojdbc7_12_2_0_1.xml,1\7\17077fd28bc93d568ef592d90f92b876c9e10f69
 l
 <.idea/libraries/Maven__jakarta_ejb_jakarta_ejb_api_3_2_5.xml,b\4\b4059a922bf794b4c05f1627a52c182776320257
-n
->.idea/libraries/Maven__com_oracle_ojdbc_ojdbc8dms_19_3_0_0.xml,d\b\dbd372ded1ebe2096fbb8143b252e25264c4fb4e
-h
-8.idea/libraries/Maven__com_oracle_ojdbc_dms_19_3_0_0.xml,8\0\8050b206e323eeec9f2c9e19f6a9d4f8b1925a10
 Å
 Q.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jcdi_2_0_spec_1_0_1.xml,5\a\5a98f4daa717ff9995717cba889b0a2f87cea3d7
 É
@@ -19,8 +13,6 @@ e
 5.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_25.xml,0\1\01628df970e5d473f73135e0f8bfdb74d035186a
 e
 5.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml,e\6\e639c26d08947d6df74d6d8ca98a796cafd0830f
-I
-assets/queries/FirstQ.sql,2\f\2f6c1d62c658b250e952a889059314dca1b92007
 c
 3src/main/java/ir/miladtehrany/repository/RTest.java,3\4\3420d1b3d82c0f40d8bde84f6f2e0c8252fca358
 b

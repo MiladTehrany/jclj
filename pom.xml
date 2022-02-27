@@ -16,9 +16,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf-4j>1.7.25</slf-4j>
         <ejb-api>3.2.5</ejb-api>
-        <ojdbc7>12.2.0.1</ojdbc7>
-        <dms>19.3.0.0</dms>
-        <ojdbc8dms>19.3.0.0</ojdbc8dms>
         <geronimo-jcdi>1.0.1</geronimo-jcdi>
         <geronimo-atinject>1.0</geronimo-atinject>
         <geronimo-annotation>1.1</geronimo-annotation>
@@ -39,20 +36,12 @@
         </dependency>
         <!-- JDBC Dependencies -->
         <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc7</artifactId>
-            <version>${ojdbc7}</version>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2.0.4</version>
         </dependency>
-        <dependency>
-            <groupId>com.oracle.ojdbc</groupId>
-            <artifactId>dms</artifactId>
-            <version>${dms}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.oracle.ojdbc</groupId>
-            <artifactId>ojdbc8dms</artifactId>
-            <version>${ojdbc8dms}</version>
-        </dependency>
+
+
         <!-- CDI Dependencies -->
         <dependency>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -74,7 +63,7 @@
     </dependencies>
 
     <build>
-        <finalName>corejdbc</finalName>
+        <finalName>jclj</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -85,33 +74,36 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.2.4</version>
                 <executions>
                     <execution>
-                        <phase>package</phase>
                         <goals>
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <shadedArtifactAttached>true</shadedArtifactAttached>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>Main</mainClass>
+                                <transformer implementation=
+                                                     "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>ir.miladtehrany.check.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
+
             <!-- now make the jar chmod +x style executable -->
             <plugin>
                 <groupId>org.skife.maven</groupId>
                 <artifactId>really-executable-jar-maven-plugin</artifactId>
                 <version>1.1.0</version>
                 <configuration>
+                    <flags>-Xmx1G</flags>
                     <programFile>${project.artifactId}</programFile>
                 </configuration>
 
